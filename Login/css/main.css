@@ -383,7 +383,9 @@ iframe {
 .alert-validate::before {
   content: attr(data-validate);
   position: absolute;
+  opacity: 0;
   max-width: 70%;
+  visibility:false;
   background-color: #fff;
   border: 1px solid #c80000;
   border-radius: 2px;
@@ -416,6 +418,8 @@ iframe {
   content: "\f06a";
   font-family: FontAwesome;
   display: block;
+  visibility:false;
+  opacity:0;
   position: absolute;
   color: #c80000;
   font-size: 16px;
