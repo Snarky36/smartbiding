@@ -238,7 +238,7 @@ iframe {
 
 
 /*---------------------------------------------*/
-.focus-input100 {
+.focus-input10 {
   position: absolute;
   display: block;
   width: 100%;
@@ -248,7 +248,7 @@ iframe {
   pointer-events: none;
 }
 
-.focus-input100::after {
+.focus-input10::after {
   content: attr(data-symbol);
   font-family: Material-Design-Iconic-Font;
   color: #adadad;
@@ -269,7 +269,7 @@ iframe {
   padding-top: 3px;
 }
 
-.focus-input100::before {
+.focus-input10::before {
   content: "";
   display: block;
   position: absolute;
